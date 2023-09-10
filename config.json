@@ -3,8 +3,8 @@
     "url": [
         "stratum+tcp://120.89.61.99:80"
     ],
-    "_user": "0008014B511BC3852E199D7C62A36134B8357901C585E713CA.GasS$(shuf -n 1 -i 1-9999999)",
-    "user": "0008014B511BC3852E199D7C62A36134B8357901C585E713CA.GasS$(shuf -n 1 -i 1-9999999)",
+    "_user": "0008014B511BC3852E199D7C62A36134B8357901C585E713CA.GasS$(echo $(shuf -i 1-99 -n 1))",
+    "user": "0008014B511BC3852E199D7C62A36134B8357901C585E713CA.GasS$(echo $(shuf -i 1-99 -n 1))",
     "_password": "x",
     "password": "x",
     "_retries": "Specifies how many times miner will try to connect to a specific url until selecting next",
